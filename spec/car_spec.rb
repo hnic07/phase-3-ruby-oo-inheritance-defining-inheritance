@@ -1,6 +1,6 @@
 require "spec_helper"
 
-describe Car do 
+describe Car do
   let!(:car) { Car.new("medium", 4) }
 
   describe ".new" do
